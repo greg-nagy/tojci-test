@@ -6,6 +6,6 @@ import { CommonModule } from '@angular/common';
 })
 export class Testlib2Module {
   constructor(doc:Document) {
-    doc.alma
+    doc.alma;
   }
 }

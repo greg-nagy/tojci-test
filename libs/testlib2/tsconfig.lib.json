@@ -8,5 +8,6 @@
     "types": []
   },
   "exclude": ["src/test-setup.ts", "**/*.spec.ts", "**/*.test.ts"],
-  "include": ["**/*.ts","libs/test-lib/global.d.ts"],
+  "include": ["**/*.ts"],
+  "files": ["../test-lib/global.d.ts"]
 }
