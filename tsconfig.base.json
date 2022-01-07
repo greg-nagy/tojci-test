@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@tojci-test/test-lib": ["libs/test-lib/src/index.ts"]
+      "@tojci-test/test-lib": ["libs/test-lib/src/index.ts"],
+      "@tojci-test/testlib2": ["libs/testlib2/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

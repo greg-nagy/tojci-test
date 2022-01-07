@@ -24,6 +24,32 @@
       },
       "tags": []
     },
+    "testlib2": {
+      "projectType": "library",
+      "root": "libs/testlib2",
+      "sourceRoot": "libs/testlib2/src",
+      "prefix": "tojci-test",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/testlib2"],
+          "options": {
+            "jestConfig": "libs/testlib2/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/testlib2/src/**/*.ts",
+              "libs/testlib2/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
     "tojci": {
       "projectType": "application",
       "root": "apps/tojci",
