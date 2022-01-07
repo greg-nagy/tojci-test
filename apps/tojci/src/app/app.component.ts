@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'tojci';
+
+  doc: Document;
+
+  constructor() {
+    this.doc = new Document();
+    console.log(this.doc.alma);
+  }
 }
